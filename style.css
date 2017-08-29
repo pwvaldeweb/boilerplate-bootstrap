@@ -1,0 +1,49 @@
+.figura_uva{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 6px gray;
+    text-align: center;
+    
+}
+.figura_uva img{
+    height: 100%;
+    text-align: center;
+   
+}
+.media-left{
+    
+}
+.container{
+    background-color: rgba(116,0,45,0.4);
+}
+body{
+    background-color:#373536 ;
+}
+.media{
+    margin-top: 20px;
+    padding: 12px;
+}
+.media-body{
+    color: white;
+}
+.media-heading{
+    font-size: 1.8em;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.btn{
+    color: white;
+    font-weight: bold;
+    border:solid 3px #74002d;
+    background-color: gray;
+}
+@media (max-width:365px){
+    .media-left, .media-body{
+        display: block;
+    }
+}
